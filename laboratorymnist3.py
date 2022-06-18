@@ -47,7 +47,7 @@ texts = ["Перцептрон - математический аналог не�
          "Наша модель нейронной сети", "График точности", "График функции потерь", "Матрица ошибок"
 
          ]
-file_path = '/app/mnist_theory2/'
+file_path = '/app/laboratory3/'
 
 for header_name, subheader_name, file_name, text_header, text in zip(header_names, subheader_names, file_names, text_headers, texts):
     # st.subheader(header_name)
@@ -74,9 +74,9 @@ def show_image(img):
     plt.imshow(Image.fromarray(img).convert('RGB')) #Отрисовка картинки .convert('RGB')
     plt.show()
 
-model_2d = load_model('/app/laboratory1/mnist_2d.h5')    
-file_path = '/app/laboratory1/your_file_image.png'
-picture_all = '/app/laboratory1/realtrack1.jpg'
+model_2d = load_model('/app/laboratory3/mnist_2d.h5')    
+file_path = '/app/laboratory3/your_file_image.png'
+picture_all = '/app/laboratory3/realtrack1.jpg'
 
 st.markdown('''<h1 style='text-align: center; color: black;'
             >Лабораторная работа "Распознавание рукописных цифр".</h1>''', 
