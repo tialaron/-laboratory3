@@ -1,7 +1,7 @@
 import streamlit as st
 
 #import cv2
-from PIL import Image #Отрисовка изображений
+from PIL import Image, ImageEnhance, ImageFilter
 import numpy as np
 from tensorflow.keras.models import load_model
 
